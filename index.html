@@ -5,138 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jérémy Wolff</title>
 
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 80px 20px;
-            line-height: 1.6;
-            color: #111;
-            background: #f9fafb;
-        }
-
-        h1 {
-            font-size: 32px;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            font-size: 24px;
-            margin-bottom: 12px;
-        }
-
-        .intro {
-            font-size: 18px;
-            color: #444;
-            margin-bottom: 20px;
-        }
-
-        .section {
-            margin-top: 40px;
-        }
-
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.05);
-            margin-top: 15px;
-        }
-
-        a {
-            color: #1d4ed8;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .project-title {
-            font-weight: 600;
-            margin-bottom: 4px;
-        }
-
-        .contact {
-            margin-top: 10px;
-        }
-
-        .cta {
-            margin-top: 25px;
-        }
-
-        .cta a {
-            display: inline-block;
-            background: #111;
-            color: #fff;
-            padding: 12px 20px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 500;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Jérémy Wolff</h1>
+<h1>Jérémy Wolff</h1>
 
-    <p class="intro">
-        Je conçois des <strong>sites web professionnels</strong> pour <strong>indépendants et particuliers</strong> :
-        thérapeutes, esthéticiennes, massothérapeutes, ostéopathes, peintres, fleuristes et autres indépendants.<br>
-        Des sites <strong>simples et soignés</strong> pour <strong>présenter votre activité</strong> et <strong>donner envie de vous contacter</strong>.<br>
-        <strong>Tarifs accessibles</strong> adaptés aux besoins des indépendants.
-    </p>
+<p class="subtitle">
+    Création de sites web professionnels - Vaud, Suisse
+</p>
 
-    <div class="cta">
-        <a href="mailto:jeremy.wolff@hotmail.com?subject=Demande de site web">
-            Demander un site
-        </a>
-    </div>
+<p class="intro">
+    Je conçois, développe et mets en ligne des <strong>sites web professionnels</strong> pour <strong>entrepreneurs et particuliers</strong> :
+    thérapeutes, esthéticiennes, massothérapeutes, ostéopathes, peintres, fleuristes et autres activités.
+</p>
 
-    <div class="section">
-        <h2>Expérience</h2>
+<p class="intro">
+    Des sites <strong>simples et soignés</strong> pour <strong>présenter votre activité</strong> et <strong>donner envie de vous contacter</strong>.
+</p>
 
-        <div class="card">
-            <p>
-                <strong>Informaticien CFC</strong><br>
-                Actuellement étudiant en cours d’emploi à la <strong>HEIG-VD</strong><br>
-                Filière : <strong>Informatique et systèmes de communication</strong><br>
-                Orientation : <strong>Sécurité informatique</strong><br><br>
+<p class="intro">
+    Mise en ligne, SEO de base, présence Google (Google Business) et hébergement (Infomaniak) inclus.<br>
+    Maintenance et support annuel disponibles en option. Tarifs accessibles adaptés aux besoins.
+</p>
 
-                <strong>4 ans d’expérience</strong> comme informaticien à l’<strong>EPFL</strong>
-            </p>
-        </div>
-    </div>
+<div class="cta">
+    <a href="mailto:jeremy.wolff@hotmail.com?subject=Demande de site web">
+        Demander votre site
+    </a>
+</div>
 
-    <div class="section">
-        <h2>Projets récents</h2>
+<div class="section">
+    <h2>Expérience</h2>
 
-        <div class="card">
-            <div class="project-title">Iasmin Esthétique</div>
-            <div>Esthéticienne</div>
-            <a href="https://iasminesthetique.ch" target="_blank" rel="noopener noreferrer">
-                https://iasminesthetique.ch
-            </a>
-        </div>
+    <div class="card card-exp">
+        <p>
+            <strong>Informaticien CFC</strong> <span class="muted">(EPSIC)</span><br>
+            <span class="small">Prix de Mérite – Economie Région Lausanne</span><br><br>
 
-        <div class="card">
-            <div class="project-title">Sanojart</div>
-            <div>Artiste peintre</div>
-            <a href="https://sanojart.ch" target="_blank" rel="noopener noreferrer">
-                https://sanojart.ch
-            </a>
-        </div>
-    </div>
+            Actuellement étudiant en cours d’emploi à la <strong>HEIG-VD</strong><br>
+            Filière : <strong>Informatique et systèmes de communication</strong><br>
+            Orientation : <strong>Sécurité informatique</strong><br><br>
 
-    <div class="section">
-        <h2>Contact</h2>
-        <p class="contact">
-            <a href="mailto:jeremy.wolff@hotmail.com">
-                jeremy.wolff@hotmail.com
-            </a>
+            <strong>4 ans d’expérience</strong> comme informaticien à l’<strong>EPFL</strong>
         </p>
     </div>
+</div>
+
+<div class="section">
+    <h2>Projets récents</h2>
+
+    <div class="card card-iasmin project-card">
+        <div class="project-content">
+            <div>
+                <div class="project-title">Iasmin Esthétique</div>
+                <div class="project-role">Esthéticienne</div>
+                <a href="https://iasminesthetique.ch" target="_blank" rel="noopener noreferrer">
+                    https://iasminesthetique.ch
+                </a>
+            </div>
+
+            <div class="project-logo">
+                <img src="images/logo-iasmin.png" alt="Logo Iasmin Esthétique">
+            </div>
+        </div>
+    </div>
+
+    <div class="card card-sanojart project-card">
+        <div class="project-content">
+            <div>
+                <div class="project-title">Sanojart - Jonas Meyer</div>
+                <div class="project-role">Artiste peintre</div>
+                <a href="https://sanojart.ch" target="_blank" rel="noopener noreferrer">
+                    https://sanojart.ch
+                </a>
+            </div>
+
+            <div class="project-logo">
+                <img src="images/logo-phenix.png" alt="Logo Sanojart">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Contact</h2>
+    <p class="contact">
+        <a href="mailto:jeremy.wolff@hotmail.com">
+            jeremy.wolff@hotmail.com
+        </a>
+    </p>
+</div>
 
 </body>
 </html>

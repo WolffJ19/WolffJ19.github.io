@@ -1,0 +1,208 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    line-height: 1.6;
+    color: #111;
+    background: #f9fafb;
+}
+
+/* TITRES */
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+/* INTRO */
+
+.intro {
+    font-size: 17px;
+    color: #444;
+    margin-bottom: 14px;
+}
+
+/* SECTIONS */
+
+.section {
+    margin-top: 40px;
+}
+
+/* CARDS */
+
+.card {
+    padding: 20px;
+    border-radius: 14px;
+    margin-top: 15px;
+    transition: all 0.25s ease;
+}
+
+/* EXPERIENCE */
+
+.card-exp {
+    background: #eef2f7;
+    border: 1px solid #e3e9f4;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+
+/* IASMIN */
+
+.card-iasmin {
+    background: #E3F6F6;
+    border-left: 4px solid #4FB7B6;
+}
+
+/* SANOJART */
+
+.card-sanojart {
+    background: #E3E9F4;
+    border-left: 4px solid #0F2A6B;
+}
+
+/* HOVER */
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* PROJECT */
+
+.project-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.project-role {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+/* LOGOS DESKTOP */
+
+.project-logo img {
+    max-width: 120px;
+    height: auto;
+    object-fit: contain;
+}
+
+.card-sanojart .project-logo img {
+    max-width: 100px;
+}
+
+/* LIENS */
+
+a {
+    color: #1d4ed8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* CTA */
+
+.cta {
+    margin-top: 25px;
+}
+
+.cta a {
+    display: inline-block;
+    background: #16a34a;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.cta a:hover {
+    background: #15803d;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* CONTACT */
+
+.contact {
+    margin-top: 10px;
+}
+
+/* MOBILE */
+
+@media (max-width: 640px) {
+
+    body {
+        padding: 50px 16px;
+    }
+
+    .project-content {
+        gap: 12px;
+    }
+
+    .project-content > div:first-child {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .project-logo {
+        flex-shrink: 0;
+    }
+
+    /* LOGOS MOBILE FIX */
+
+    .project-logo img {
+        max-width: 100px;
+    }
+
+    .card-sanojart .project-logo img {
+        max-width: 90px;
+    }
+
+    /* TEXTE */
+
+    .project-title {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .project-role {
+        font-size: 13px;
+    }
+
+    /* CTA FULL WIDTH */
+
+    .cta {
+        display: flex;
+    }
+
+    .cta a {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        font-size: 16px;
+    }
+}
