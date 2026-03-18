@@ -7,17 +7,36 @@
 
     <style>
         body {
-            font-family: Arial, sans-serif;
-            max-width: 700px;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 60px 20px;
+            padding: 80px 20px;
             line-height: 1.6;
-            color: #222;
+            color: #111;
+            background: #f9fafb;
         }
 
         h1 {
-            font-size: 28px;
+            font-size: 32px;
             margin-bottom: 10px;
+        }
+
+        .intro {
+            font-size: 18px;
+            color: #444;
+            margin-bottom: 40px;
+        }
+
+        .section {
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+            margin-top: 15px;
         }
 
         a {
@@ -29,8 +48,13 @@
             text-decoration: underline;
         }
 
-        .section {
-            margin-top: 30px;
+        .project-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .contact {
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -38,32 +62,32 @@
 
 <h1>Jérémy Wolff</h1>
 
-<p>
-Je crée des sites web professionnels pour indépendants et particuliers :
-thérapeutes, esthéticiennes, coiffeurs, peintres, ostéopathes, etc.
+<p class="intro">
+Je conçois des sites web professionnels pour indépendants et particuliers : thérapeutes, esthéticiennes, peintres, massothérapeutes, ostéopathes, pompes funèbres, fleuristes, etc.<br>
+Des sites simples et soignés pour présenter votre activité et donner envie de vous contacter.
 </p>
 
 <div class="section">
-    <h2>Projets</h2>
+    <h2>Projets récents</h2>
 
-    <p>
-        <strong>Iasmin Esthétique</strong><br>
+    <div class="card">
+        <div class="project-title">Iasmin Esthétique</div>
         <a href="https://iasminesthetique.ch" target="_blank">
             https://iasminesthetique.ch
         </a>
-    </p>
+    </div>
 
-    <p>
-        <strong>Sanojart</strong><br>
+    <div class="card">
+        <div class="project-title">Sanojart</div>
         <a href="https://sanojart.ch" target="_blank">
             https://sanojart.ch
         </a>
-    </p>
+    </div>
 </div>
 
 <div class="section">
     <h2>Contact</h2>
-    <p>
+    <p class="contact">
         <a href="mailto:jeremy.wolff@hotmail.com">
             jeremy.wolff@hotmail.com
         </a>
