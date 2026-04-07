@@ -108,12 +108,12 @@ h2 {
 
 /* DUYING */
 .card-duying .project-link {
-    background: #F9F2FF;
+    background: rgba(130, 111, 165, 0.12);
     color: #826FA5;
 }
 
 .card-duying .project-link:hover {
-    background: #F9F2FF;
+    background: rgba(130, 111, 165, 0.2);
 }
 
 /* HOVER */
