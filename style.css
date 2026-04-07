@@ -81,8 +81,8 @@ h2 {
 
 /* DUYING */
 .card-duying {
-    background: #FFF1F5;
-    border-left: 4px solid #DB2777;
+    background: #F9F2FF;
+    border-left: 4px solid #826FA5;
 }
 
 /* BOUTONS PROJETS */
@@ -108,12 +108,12 @@ h2 {
 
 /* DUYING */
 .card-duying .project-link {
-    background: rgba(219, 39, 119, 0.08);
-    color: #DB2777;
+    background: #F9F2FF;
+    color: #826FA5;
 }
 
 .card-duying .project-link:hover {
-    background: rgba(219, 39, 119, 0.15);
+    background: #F9F2FF;
 }
 
 /* HOVER */
@@ -158,7 +158,7 @@ h2 {
 }
 
 .card-duying .project-logo img {
-    height: 120px; /* ajuste ici */
+    height: 110px; /* ajuste ici */
 }
 
 /* LIENS */
